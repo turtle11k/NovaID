@@ -29,6 +29,14 @@ data lives in a local SQLite file (`novaid.db`).
 
 ## Install & run
 
+### Quick launch (one click)
+
+- **macOS** — double-click `run.command` in Finder (or run `./run.command`).
+- **Windows** — double-click `run.bat`.
+
+Both scripts create the virtual environment and install dependencies on the
+first run, then start the app. The manual steps below do the same explicitly.
+
 ### macOS (Apple Silicon and Intel)
 
 ```bash
@@ -95,6 +103,8 @@ NovaID/
 ├── assets/                # PNG icons (fingerprint, terminal, padlock, node)
 ├── tools/
 │   └── make_icons.py      # regenerates assets/*.png with QPainter (no deps)
+├── run.command            # one-click launcher for macOS
+├── run.bat                # one-click launcher for Windows
 ├── requirements.txt
 └── README.md
 ```
