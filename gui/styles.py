@@ -67,10 +67,12 @@ QLabel#SectionTitle {{
 
 QLineEdit {{
     background: #fbfcfe;
+    color: {INK};
     border: 1px solid #d8dce6;
     border-radius: 10px;
     padding: 10px 12px;
     selection-background-color: {ACCENT};
+    selection-color: #ffffff;
 }}
 QLineEdit:focus {{
     border: 1px solid {ACCENT};
@@ -98,6 +100,7 @@ QPushButton#Ghost:hover {{ background: #eef1fe; }}
 
 QTableWidget {{
     background: {CARD_BG};
+    color: {INK};
     border: 1px solid #e6e8ef;
     border-radius: 12px;
     gridline-color: #eef0f6;
@@ -117,6 +120,7 @@ QHeaderView::section {{
 
 QSpinBox {{
     background: #fbfcfe;
+    color: {INK};
     border: 1px solid #d8dce6;
     border-radius: 8px;
     padding: 4px 8px;

@@ -82,7 +82,7 @@ class ScoreBoard(QFrame):
         self.defender_icon = QLabel()
         self.defender_icon.setPixmap(get_pixmap("defender", 20))
         self.defender_lbl = QLabel()
-        self.defender_lbl.setStyleSheet("font-size:15px; font-weight:600;")
+        self.defender_lbl.setStyleSheet("font-size:15px; font-weight:600; color:#1f2430;")
         d_wrap.addWidget(self.defender_icon)
         d_wrap.addWidget(self.defender_lbl)
 
@@ -92,7 +92,7 @@ class ScoreBoard(QFrame):
         self.tester_icon = QLabel()
         self.tester_icon.setPixmap(get_pixmap("tester", 20))
         self.tester_lbl = QLabel()
-        self.tester_lbl.setStyleSheet("font-size:15px; font-weight:600;")
+        self.tester_lbl.setStyleSheet("font-size:15px; font-weight:600; color:#1f2430;")
         t_wrap.addWidget(self.tester_icon)
         t_wrap.addWidget(self.tester_lbl)
 
